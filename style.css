@@ -10,6 +10,11 @@
   margin: 0;
 }
 
+.mystory img{
+    height: 50%;
+    width: 50%;
+
+}
 
 header{
     display: flex;
@@ -17,6 +22,51 @@ header{
     text-align: center;
     align-items: center;
     padding: 0 20px;
+}
+
+footer {
+    background: #151D6B;
+    color: #f3f3f3;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.footer-heading {
+    font-size: 14px;
+}
+
+.footer-info {
+    font-size: 10px;
+}
+
+.footer-left {
+    margin: 0;
+    line-height: 1.5;
+    min-width: 120px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 20px;
+    margin-left: 90px;
+}
+  
+.social-icon {
+    width: 45px;
+    height: 45px;
+}
+  
+.footer-center {
+    background: #103144;
+    color: #f3f3f3;
+    text-align: center;
+    font-size: 12px;
 }
 
 nav {
@@ -68,9 +118,30 @@ nav a{
  justify-content: left;
  align-items: space-evenly;
  margin-top: 5%;
- margin-left: 5%;
- height: 600px;
+ margin: 5%;
+ 
  z-index: -1;
+ /* border: 2px solid black; */
+ margin-bottom: 20vh;
+ 
+}
+
+img{
+    width: 100%;
+}
+
+.bg-stasia{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    margin: 0 auto; 
+    transform-origin: center top; 
+    margin-top: -80vh;
+    margin-bottom: 20vh; */
+    width: 50%;
+    /* border: 2px solid black; */
+    
 }
 
 .home-text{
@@ -81,8 +152,9 @@ nav a{
     font-weight: 800;
     line-height: normal;
     display: flex;
-    margin-top: 14%;
-    margin-right: 7%;
+    /* margin-top: 14%;
+    margin-right: 7%; */
+    width: 25%;
 
 }
 
@@ -100,7 +172,7 @@ nav a{
   .cooperimg {
     margin-left: -95px;
     margin-bottom: 0px;
-    height: 30vh;
+    width: 12vw;
     padding-bottom: 0px;
     z-index: 3;
     margin-top: 80px;
@@ -228,6 +300,7 @@ align-items: space-evenly;
       margin-top: 10vh; 
       align-items: center;
       width: 80%;
+      height: 80%;
       background: #120B4F;
       border-radius: 8px;
       margin-top: 0px;
@@ -247,12 +320,20 @@ align-items: space-evenly;
       margin-bottom: -25vh;
       z-index: 2;
   }
+
+  .coopieduck{
+    position: absolute;
+    height: 40vh;
+    margin-left: 30%;
+    margin-bottom: -1000vh;
+    z-index: 2;
+}
   
   .portfolio-card h2{
       color: #FFF;
       text-align: center;
       font-family: "Abril Fatface";
-      font-size: 57.413px;
+      font-size: 50px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
@@ -272,7 +353,7 @@ align-items: space-evenly;
   
   .portfolio-card a img{
       display: block;
-      height: 100%;
+      height: 50%;
       width: 100%;
       border-radius: 30px;
   }
@@ -295,7 +376,7 @@ align-items: space-evenly;
       color: #FFF;
       text-align: center;
       font-family: "Abhaya Libre ExtraBold";
-      font-size: 20px;
+      font-size: 18px;
       font-style: normal;
       font-weight: 800;
       line-height: normal;
@@ -332,17 +413,50 @@ align-items: space-evenly;
     display: none;
   }
 
+  .Resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    margin: 0 auto; /* Center container */
+    transform-origin: center top; /* Scale from top center */
+    transition: transform 0.3s ease;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    
+    width: 60%;
+
+  }
+
+  .resume a.download-btn{
+    display: inline-flex;
+    padding: 8.045px 13.409px;
+    align-items: center;
+    gap: 5.364px;
+    border-radius: 10.727px;
+    background: #353A84;
+    color: #FFF;
+    font-family: "Abril Fatface";
+    font-size: 21.455px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20vw;
+    
+  }
   
+  .home-mobile-text{
+    display:none;
+  }
 
 @media(max-width: 800px){
     nav a{
         font-size: 10px;
     }
-    body{
-        background-size: 101% 100%;; 
-        min-height: 100vh;
-        margin: 0 1%;
+    img{
+        width: 100%;
     }
+  
     .bg-text{
         width: 100vw;
         height: 40vh;
@@ -350,13 +464,37 @@ align-items: space-evenly;
        
     }
     .bg-globe{
-        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 5vh;
+        width:100%;
     }
     .home-text{
-        font-size: 3vw;
-        margin-top: 14.5vh;
-        margin-right: 5vw;
+        display: none;
     }
+
+    .home-mobile-text{
+        display: block;
+        color: #FFF;
+        font-family: "Abhaya Libre ExtraBold";
+        font-size: 7vw;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding: 5vw;
+      
+        width: 75%;
+    }
+    .bg-stasia{
+        width: 100%;
+    }
+   .home-text{
+        font-size: 5vw;
+        /* margin-top: 14.5vh; */
+        /* margin-right: 5vw; */
+    } 
 
     .card-container{
         display: flex;
@@ -370,9 +508,9 @@ align-items: space-evenly;
 
     .cooperimgmobile{
         display: block;
-        height: 20vh;
+        width: 20vw;
         margin-left: 40%;
-        margin-top: -30%;
+        margin-top: -50%;
         z-index: 2;
         margin-bottom: 0px;
         padding-bottom: 0px;
@@ -512,8 +650,54 @@ align-items: space-evenly;
         height: 15vh;
   
     }
+
+   
+      
     
 }
+
+@media(max-width: 1024px){
+
+    .coopieduck{
+   
+        margin-left: 30%;
+        margin-bottom: -100vh;
+        width: 30vw;
+        height: auto;
+        margin-right: 0px;
+
+    }
+
+    .resume a.download-btn{
+       width: 30vw;
+       height: 5vh;
+       font-size: 8px;
+       padding: 1px; 
+       padding-left: 2px;
+       margin-left: 12vw;
+        
+      }
+
+      .resume img.btn-icon{
+        height: 5vh;
+        width: 5vw;
+      }
+
+      .Resume{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;   
+        margin: 0 auto; /* Center container */
+        transform-origin: center top; /* Scale from top center */
+        transition: transform 0.3s ease;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        
+        width: 80%;
+    
+      }
+    }
 
 
 
