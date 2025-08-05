@@ -4,6 +4,10 @@
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
+
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  background-color: linear-gradient(to right, #1F2551, #120B4F);;
+
   background: linear-gradient(to right, #1F2551, #120B4F);
   background-size: cover;
   min-height: 100vh;
