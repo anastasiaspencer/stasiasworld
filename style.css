@@ -329,12 +329,18 @@ align-items: space-evenly;
       z-index: 2;
   }
 
+  .resume-header{
+    /* border: 2px black; */
+  }
+
   .coopieduck{
+
+    width: 20vw;
+    margin-left: 50%;
+     margin-bottom: -1500vh;  
+    z-index: 3;
+    float: right;
     position: absolute;
-    height: 40vh;
-    margin-left: 30%;
-    margin-bottom: -1000vh;
-    z-index: 2;
 }
   
   .portfolio-card h2{
@@ -666,9 +672,8 @@ align-items: space-evenly;
     
 }
 
-@media(max-width: 1024px){
 
-    .coopieduck{
+    /* .coopieduck{
    
         margin-left: 30%;
         margin-bottom: -100vh;
@@ -676,13 +681,13 @@ align-items: space-evenly;
         height: auto;
         margin-right: 0px;
 
-    }
+    } */
 
     .resume a.download-btn{
-       width: 30vw;
-       height: 5vh;
-       font-size: 8px;
-       padding: 1px; 
+       width: 10%;
+ 
+       font-size: 1vw;
+       padding: 1%; 
        padding-left: 2px;
        margin-left: 12vw;
         
@@ -707,7 +712,7 @@ align-items: space-evenly;
         width: 80%;
     
       }
-    }
+
 
 
 
