@@ -337,7 +337,8 @@ align-items: space-evenly;
 
     width: 20vw;
     margin-left: 50%;
-     margin-bottom: -1500vh;  
+     margin-bottom: -1200vw;  
+     margin-top: -5vw;
     z-index: 3;
     float: right;
     position: absolute;
