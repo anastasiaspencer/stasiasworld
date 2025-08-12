@@ -323,7 +323,7 @@ align-items: space-evenly;
   
   .computerstasia{
       position: absolute;
-      width: 20vw;
+      width: 10vw;
       margin-left: 75%;
       margin-bottom: -25%;
       z-index: 2;
@@ -711,7 +711,7 @@ align-items: space-evenly;
 
     .computerstasia{
       
-        height: 15vh;
+        width: 15vw;
   
     }
 
